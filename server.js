@@ -7,7 +7,7 @@ app.use(morgan('combined'));
 
 
 var articles = {
-    'articl-one' : {
+    'article-one' : {
         title: 'Article One | Riyazuddin Ansari',
         heading: 'Article One',
         date: '17th February 2018',
