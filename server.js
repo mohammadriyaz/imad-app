@@ -79,6 +79,12 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
+var couter = 0;
+app.get('/counter', function(req,res) {
+    counter+=1;
+    res.send(counter.toString());
+});
+
 app.get('/:articleName', function (req, res) {
     //articleName = article-one
     //articlesName == {} content object for article-one
