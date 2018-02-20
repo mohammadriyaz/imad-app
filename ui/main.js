@@ -19,6 +19,6 @@ button.onclick = function() {
         }
         // Not done yet
     };
-    request.open('GET','http://riyazstone23.imad.hasura-app.io', true);
+    request.open('GET','http://riyazstone23.imad.hasura-app.io/counter', true);
     request.send(null);
 };
