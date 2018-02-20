@@ -9,5 +9,5 @@ button.onclick = function() {
     //Render the varaible in the correct span
     counter +=1;
     var span = document.getElementById('count');
-    span.innerHTML = cpounter.toString();
+    span.innerHTML = counter.toString();
 };
